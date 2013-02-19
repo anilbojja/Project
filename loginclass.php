@@ -35,16 +35,10 @@
 			if($row['isset']==1)
 				{
 					header('Location: admin1.php');
-				  /* echo("<script type='text/javascript'>
-					      window.location='admin.php';
-						</script>");*/
 				}
 		  	else
 		  		{  
 		  			header('Location: user.php');
-		  			/*echo("<script type='text/javascript'>
-					    window.location='user.php';
-						</script>");*/
 		  		}
 		  	}
     }
