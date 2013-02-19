@@ -22,7 +22,7 @@
 			     { 
 					echo("<script type='text/javascript'>
 					      alert('Invalid Login')	
-					      window.location='login.html';
+					      window.location='login.php';
 						</script>");
 				}
 				
